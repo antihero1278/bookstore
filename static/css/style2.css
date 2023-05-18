@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(75, 180, 221);
+}
+
+.container{
+margin: 0px 500px;
+}
+
+.content{
+    background-image:url(../img/background.png) ;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*:focus{
+    outline: none;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 30px;
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+::placeholder{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+input{
+   padding: 7px 20px;
+}
+
+
+.button{
+margin-left: 120px;
+margin-top: 100px;
+}
+
+.button a{
+    padding: 8px 10px;
+    background-color:rgb(75, 194, 114);
+    border-radius: 6px;
+    box-shadow: inset 1px 6px 8px rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+input:focus{
+    border: 2px solid rgb(252, 88, 88);
+}
+
+.button1 a{
+    padding: 10px 17px;
+    background-color:rgb(75, 194, 114);
+    border-radius: 6px;
+    box-shadow: inset 1px 6px 8px rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.button a:hover{
+    background-color:rgb(8, 173, 63);
+}
+
+.button1 a:hover{
+    background-color:rgb(8, 173, 63);
+}
+
+
